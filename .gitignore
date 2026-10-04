@@ -1,0 +1,10 @@
+# User resources and generated outputs
+/data/
+/checkpoints/
+/outputs/
+/.cache/
+/configs/paths.local.sh
+/configs/checkpoints.local.csv
+__pycache__/
+*.py[cod]
+.DS_Store

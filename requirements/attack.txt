@@ -1,0 +1,28 @@
+# Python 3.10; versions read from the research attack environment on 2026-10-04.
+# torch/torchvision use the CUDA 12.6 wheel index in Env/tina-plus.sh.
+torch==2.8.0+cu126
+torchvision==0.23.0+cu126
+diffusers==0.35.1
+transformers==4.50.0
+accelerate==1.10.1
+huggingface-hub==0.35.3
+tokenizers==0.21.4
+safetensors==0.6.2
+numpy==2.1.2
+pandas==2.3.3
+Pillow==11.0.0
+tqdm==4.67.1
+# Same detector implementation/ONNX model, CPU inference backend for portability.
+onnxruntime==1.23.0
+opencv-python-headless==4.12.0.88
+# Sensitive transitive dependencies observed in the source environment.
+filelock==3.13.1
+packaging==25.0
+regex==2025.9.18
+requests==2.32.5
+psutil==7.1.0
+protobuf==6.32.1
+sympy==1.13.3
+flatbuffers==25.9.23
+coloredlogs==15.0.1
+importlib-metadata==8.7.0
